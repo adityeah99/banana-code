@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana Code</title>
-   <style>
-       textarea {
-           width: 80%;
-           height: 10vm;
-           margin: 1rem;
-           display: block;
-           padding: 1rem;
-       }
-    </style>
+    <title>talk banana</title>
+<style>
+    textarea {
+        width: 80%;
+        margin: 1rem;
+        display: block;
+        padding: 1rem;
+        height: 10vh;
+    }
+    #output {
+        border: 1px solid black;
+        width: 80%;
+        margin: 1rem;
+        display: block;
+        padding: 1rem;
+        height: 10vh;
+    }
+
+</style>
+
 </head>
 <body>
-   <h1> "talk banana" </h1>
+    <h1> talk banana </h1>
 
-<textarea id = "txt-input"placeholder="if you want to translate then type here"></textarea>
-<button id= "btn-translate">Translate</button> 
+    <textarea id="txt-input"
+    placeholder= "Type your text here"></textarea>
+<button id="btn-translate">translate</button>
+
+<div style="font-size: larger;">your output is here</div>
+<div id="output"></div>
 
 
-
-
-
-   <script src="app.js" type="text/javascript">
-   </script>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
